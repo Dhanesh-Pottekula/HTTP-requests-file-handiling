@@ -1,0 +1,13 @@
+REST -API 
+get /users - list all users     ---- done
+
+get /users first name  ---done
+get /users/1 - get user with id 1    --done
+get / users/2 - get user with id 2      --done
+
+post /users -create new user            // used postman   --done
+
+
+patch /users/1 -edit user with id 1       --done
+ 
+delete /user/1  -  delete user with id 1   --done
