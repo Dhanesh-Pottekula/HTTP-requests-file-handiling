@@ -4,7 +4,7 @@ const userRouter=require("./routes/user");
 const mongoose=require("mongoose");
 const app =express();
 
-//const {connectmongodb}=require("./connection")          //connection mongoose to mongodb
+//const {connectmongodb}=require("./connection")          //connection mongoose to mongoDB
 
 mongoose.connect("mongodb://127.0.0.1:27017/dhanesh")
 .then(()=>{return console.log("connected")})
